@@ -1,0 +1,4 @@
+keystore password: ayoj5692
+
+alias name: bouncebird
+alias password: ayoj5692
