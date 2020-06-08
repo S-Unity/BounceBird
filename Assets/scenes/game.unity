@@ -582,7 +582,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1da27e399f5e441adac274256fcb9c8e, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -709,7 +709,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2fe085300dccf4b139ca340aaf16942d, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.02
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -926,8 +926,8 @@ SpriteRenderer:
   m_SortingLayerID: 1677748155
   m_SortingLayer: 1
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 2e2f8ca2aa2e549b1ac894227bfdffd7, type: 3}
-  m_Color: {r: 0.0754717, g: 0.00747597, b: 0.00747597, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 64004c4beab8c49c088688587b8575d6, type: 3}
+  m_Color: {r: 0.7607844, g: 0.7607844, b: 0.7607844, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -968,7 +968,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -990,7 +990,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2.05
+  m_Radius: 2.4
 --- !u!114 &1324085739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1004,7 +1004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tapForce: 212
-  tiltSmooth: 2
+  tiltSmooth: 0
   startPos: {x: -1.22, y: 0.81, z: 1}
   tapAudio: {fileID: 905544224}
   scoreAudio: {fileID: 1064162355}
@@ -2256,6 +2256,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pipe
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216260236888555651, guid: ecdd511e258cf41f79685431f3fb7c0a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216260236888555652, guid: ecdd511e258cf41f79685431f3fb7c0a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216260236888555653, guid: ecdd511e258cf41f79685431f3fb7c0a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216260236888555653, guid: ecdd511e258cf41f79685431f3fb7c0a,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 19.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216260236888555653, guid: ecdd511e258cf41f79685431f3fb7c0a,
+        type: 3}
+      propertyPath: m_AutoTiling
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7216260237095610394, guid: ecdd511e258cf41f79685431f3fb7c0a,
         type: 3}
